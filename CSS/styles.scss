@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    position:relative;
+    background-color: rgb(27, 27, 27);
+    header{
+        display: flex;
+        justify-content: space-between;
+        background: rgb(66,39,175);
+        background: linear-gradient(0deg, rgba(66,39,175,0) 0%, rgba(6,2,9,1) 100%);
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding-left: 4rem;
+        padding-right: 4rem;
+            .leftheader{
+            display: flex;
+            align-items: center;
+                .logo{
+                    height: 5rem;
+                    margin-right: 3rem;
+                }
+                p{
+                    font-weight: 600;
+                }
+                a, p{
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 1.2rem;
+                    margin-right: 1rem;
+                }
+            }
+            .rightheader{
+                display: flex;
+                align-items: center;
+                i{
+                    font-size: 3rem;
+                    color: #fff;
+                    font-size: 2rem;
+                    display: inline-block;
+                }
+                .botones{
+                    i{margin-right: 1.5rem;}
+                }
+                .peru{
+                    display: flex;
+                }
+                .profile{
+                    height: 2rem;
+                }
+                .arrowo{
+                    i{
+                        transition: transform .7s ease-in-out;
+                    }
+                    i:hover {
+                        transform: rotate(180deg);
+                }
+                }    
+                
+            }
+            
+        }
+    .hero{
+        background-image: url("../images/komi\ fondo.webp");
+        background-size: cover;
+        min-height: 60rem;
+        display: flex;
+        justify-content: space-between;
+        .main{
+            padding: 3.5rem;
+            max-height: 41.5rem;
+            img{
+                
+                margin-bottom: 2rem;
+            }
+            h2{
+                font-size: 1.3rem;
+                font-weight: 600;
+                font-size: 2rem;
+            }
+            p{
+                line-height: 2rem;
+                font-size: 1.7rem;
+            }
+            h2, p {
+                color: #fff;
+                margin-bottom: 2rem;
+            }
+            .butons{
+                display: flex;
+                a{
+                text-decoration: none;
+                font-size: 1.7rem;
+                }
+                }
+                .play{
+                    i{
+                        font-size: 2.3rem;
+                        
+                        margin-right: 1rem;
+                    }
+                    margin-right: 1rem;
+                    color: black;
+                    background-color: #fff;
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    padding-right: 2rem;
+                    padding-left: 2rem;
+                    border-radius: 0.3rem;
+                    font-weight: 600;
+                    .tengomiedo{
+                    display: flex;
+                    align-items: center;
+                }
+            }
+                .info{
+                    background-color: rgba(148, 148, 148,0.7);
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    padding-right: 2rem;
+                    padding-left: 2rem;
+                    border-radius: 0.3rem;
+                    color: #fff;
+                    font-weight: 600;
+                    .tengomiedo{
+                        display: flex;
+                        align-items: center;
+                    i{
+                        font-size: 1.9rem;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+    .right{
+        max-height: 38rem;
+        display: flex;
+        align-items: flex-end;
+        .pipo{
+            display: flex;
+            font-size: 1.7rem;
+            color: #fff;
+            .border{
+                border-style: solid;
+                i{
+                font-size: 3rem;
+                border-style: solid;
+                
+                margin-right: 1.5rem;
+                }
+            }
+            .p{
+                background-color: rgba(24, 24, 24, 0.6);
+                border-left: 0.2rem solid;
+                min-width: 8rem;
+                max-height: 3rem;
+                display: flex;
+                align-items: center;
+                p{
+                    font-size: 1.2rem;
+                    margin-left: 1.5rem;
+                
+            }
+            
+            }
+        }
+    }
+
+    
+    }
+    .lista{
+        position:absolute;
+        top: 48rem;
+    left: 0px;
+    right: 0px;
+        h3{
+            font-size: 1.6rem;
+            color: #fff;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            padding-left: 3.5rem;
+        }
+        .imagenes{
+            display: flex;
+            justify-content: center;
+            img{
+                height: 10rem;
+                margin-right: 0.2rem;
+            }
+        }
+    }
+}

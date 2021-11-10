@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  background-color: #1b1b1b;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #4227af;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(66, 39, 175, 0)), to(#060209));
+  background: linear-gradient(0deg, rgba(66, 39, 175, 0) 0%, #060209 100%);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+body header .leftheader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .leftheader .logo {
+  height: 5rem;
+  margin-right: 3rem;
+}
+
+body header .leftheader p {
+  font-weight: 600;
+}
+
+body header .leftheader a, body header .leftheader p {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+body header .rightheader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .rightheader i {
+  font-size: 3rem;
+  color: #fff;
+  font-size: 2rem;
+  display: inline-block;
+}
+
+body header .rightheader .botones i {
+  margin-right: 1.5rem;
+}
+
+body header .rightheader .peru {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header .rightheader .profile {
+  height: 2rem;
+}
+
+body header .rightheader .arrowo i {
+  -webkit-transition: -webkit-transform .7s ease-in-out;
+  transition: -webkit-transform .7s ease-in-out;
+  transition: transform .7s ease-in-out;
+  transition: transform .7s ease-in-out, -webkit-transform .7s ease-in-out;
+}
+
+body header .rightheader .arrowo i:hover {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+body .hero {
+  background-image: url("../images/komi fondo.webp");
+  background-size: cover;
+  min-height: 60rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .hero .main {
+  padding: 3.5rem;
+  max-height: 41.5rem;
+}
+
+body .hero .main img {
+  margin-bottom: 2rem;
+}
+
+body .hero .main h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+body .hero .main p {
+  line-height: 2rem;
+  font-size: 1.7rem;
+}
+
+body .hero .main h2, body .hero .main p {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+body .hero .main .butons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .hero .main .butons a {
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+
+body .hero .main .play {
+  margin-right: 1rem;
+  color: black;
+  background-color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-radius: 0.3rem;
+  font-weight: 600;
+}
+
+body .hero .main .play i {
+  font-size: 2.3rem;
+  margin-right: 1rem;
+}
+
+body .hero .main .play .tengomiedo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .hero .main .info {
+  background-color: rgba(148, 148, 148, 0.7);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-radius: 0.3rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+body .hero .main .info .tengomiedo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .hero .main .info .tengomiedo i {
+  font-size: 1.9rem;
+  margin-right: 1rem;
+}
+
+body .hero .right {
+  max-height: 38rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body .hero .right .pipo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+body .hero .right .pipo .border {
+  border-style: solid;
+}
+
+body .hero .right .pipo .border i {
+  font-size: 3rem;
+  border-style: solid;
+  margin-right: 1.5rem;
+}
+
+body .hero .right .pipo .p {
+  background-color: rgba(24, 24, 24, 0.6);
+  border-left: 0.2rem solid;
+  min-width: 8rem;
+  max-height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .hero .right .pipo .p p {
+  font-size: 1.2rem;
+  margin-left: 1.5rem;
+}
+
+body .lista {
+  position: absolute;
+  top: 48rem;
+  left: 0px;
+  right: 0px;
+}
+
+body .lista h3 {
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding-left: 3.5rem;
+}
+
+body .lista .imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .lista .imagenes img {
+  height: 10rem;
+  margin-right: 0.2rem;
+}
+/*# sourceMappingURL=styles.css.map */
