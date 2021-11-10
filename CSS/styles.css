@@ -245,6 +245,7 @@ body .lista {
   top: 48rem;
   left: 0px;
   right: 0px;
+  padding-left: 3.5rem;
 }
 
 body .lista h3 {
@@ -252,16 +253,12 @@ body .lista h3 {
   color: #fff;
   font-weight: 600;
   margin-bottom: 1rem;
-  padding-left: 3.5rem;
 }
 
 body .lista .imagenes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 body .lista .imagenes img {
