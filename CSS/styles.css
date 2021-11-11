@@ -8,6 +8,11 @@ body {
   font-family: 'Montserrat', sans-serif;
   position: relative;
   background-color: #1b1b1b;
+  min-height: 70rem;
+}
+
+body p {
+  cursor: default;
 }
 
 body header {
@@ -120,6 +125,7 @@ body .hero .main h2 {
   font-size: 1.3rem;
   font-weight: 600;
   font-size: 2rem;
+  cursor: default;
 }
 
 body .hero .main p {
@@ -156,8 +162,12 @@ body .hero .main .play {
 }
 
 body .hero .main .play i {
-  font-size: 2.3rem;
+  font-size: 3rem;
   margin-right: 1rem;
+}
+
+body .hero .main .play:hover {
+  background-color: #cfcfcf;
 }
 
 body .hero .main .play .tengomiedo {
@@ -170,7 +180,7 @@ body .hero .main .play .tengomiedo {
 }
 
 body .hero .main .info {
-  background-color: rgba(148, 148, 148, 0.7);
+  background-color: rgba(124, 124, 124, 0.7);
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-right: 2rem;
@@ -178,6 +188,13 @@ body .hero .main .info {
   border-radius: 0.3rem;
   color: #fff;
   font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .hero .main .info:hover {
+  background-color: rgba(78, 78, 78, 0.5);
 }
 
 body .hero .main .info .tengomiedo {
@@ -242,27 +259,81 @@ body .hero .right .pipo .p p {
 
 body .lista {
   position: absolute;
-  top: 48rem;
-  left: 0px;
-  right: 0px;
-  padding-left: 3.5rem;
+  top: 52rem;
 }
 
-body .lista h3 {
-  font-size: 1.6rem;
-  color: #fff;
-  font-weight: 600;
-  margin-bottom: 1rem;
-}
-
-body .lista .imagenes {
+body .lista span {
+  color: transparent;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-body .lista .imagenes img {
+body .lista a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .lista a span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 600;
+}
+
+body .lista a span i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .lista a:hover span {
+  color: #fff;
+}
+
+body .lista a h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding-left: 5rem;
+  margin-right: 1rem;
+}
+
+body .lista .listauwu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .lista .listauwu i {
+  font-size: 5rem;
+  margin-top: 1.5rem;
+  color: transparent;
+  display: inline-block;
+}
+
+body .lista .listauwu:hover i {
+  color: #fff;
+}
+
+body .lista .listauwu .imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .lista .listauwu .imagenes img {
   height: 10rem;
   margin-right: 0.2rem;
+}
+
+body .lista .listauwu .imagenes img:hover {
+  height: 15rem;
 }
 /*# sourceMappingURL=styles.css.map */

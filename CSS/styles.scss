@@ -8,6 +8,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     position:relative;
     background-color: rgb(27, 27, 27);
+    min-height: 70rem;
+    p{
+        cursor:default;
+    }
     header{
         display: flex;
         justify-content: space-between;
@@ -57,15 +61,15 @@ body {
                 .arrowo{
                     i{
                         transition: transform .7s ease-in-out;
+                        &:hover {
+                            transform: rotate(180deg);
                     }
-                    i:hover {
-                        transform: rotate(180deg);
-                }
                 }    
                 
             }
             
         }
+    }
     .hero{
         background-image: url("../images/komi\ fondo.webp");
         background-size: cover;
@@ -83,6 +87,7 @@ body {
                 font-size: 1.3rem;
                 font-weight: 600;
                 font-size: 2rem;
+                cursor: default;
             }
             p{
                 line-height: 2rem;
@@ -101,7 +106,7 @@ body {
                 }
                 .play{
                     i{
-                        font-size: 2.3rem;
+                        font-size: 3rem;
                         
                         margin-right: 1rem;
                     }
@@ -114,13 +119,16 @@ body {
                     padding-left: 2rem;
                     border-radius: 0.3rem;
                     font-weight: 600;
+                    &:hover{
+                        background-color: rgb(207, 207, 207);
+                    }
                     .tengomiedo{
                     display: flex;
                     align-items: center;
                 }
             }
                 .info{
-                    background-color: rgba(148, 148, 148,0.7);
+                    background-color: rgba(124, 124, 124, 0.7);
                     padding-top: 1rem;
                     padding-bottom: 1rem;
                     padding-right: 2rem;
@@ -128,6 +136,10 @@ body {
                     border-radius: 0.3rem;
                     color: #fff;
                     font-weight: 600;
+                    display: flex;
+                    &:hover{
+                        background-color: rgba(78, 78, 78, 0.5);
+                    }
                     .tengomiedo{
                         display: flex;
                         align-items: center;
@@ -175,24 +187,66 @@ body {
     
     }
     .lista{
-        position:absolute;
-        top: 48rem;
-    left: 0px;
-    right: 0px;
-    
-    padding-left: 3.5rem;
-        h3{
-            font-size: 1.6rem;
-            color: #fff;
-            font-weight: 600;
-            margin-bottom: 1rem;
+        position: absolute;
+        top: 52rem;
+        span{
+            color:transparent;
+            display: flex;
         }
-        .imagenes{
+        a{
+            span{
+                display: flex;
+                font-weight: 600;
+                i{
+                    display: flex;
+                }
+            }
+            text-decoration: none;
+            display: flex;
+            color: #fff;
+            align-items: center;
+            &:hover{
+                span{
+                    color:#fff;
+                }
+            }
+            h3{
+                font-size: 1.6rem;
+                font-weight: 600;
+                margin-bottom: 1rem;
+                padding-left: 5rem;
+                margin-right: 1rem;
+            }
+        }
+        
+        .listauwu{
+            display: flex;
+            
+            i{
+                font-size: 5rem;
+                margin-top: 1.5rem;
+                color:transparent;
+                display: inline-block;
+            }
+                &:hover{
+                    i{
+                        color: #fff;
+                    }
+                    
+                }
+            
+            .imagenes{
             display: flex;
             img{
                 height: 10rem;
                 margin-right: 0.2rem;
+                
+                &:hover{
+                    height: 15rem;
+                }
             }
         }
+        }
+        
     }
 }
