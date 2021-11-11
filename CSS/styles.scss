@@ -163,9 +163,12 @@ body {
                 i{
                 font-size: 3rem;
                 border-style: solid;
-                
                 margin-right: 1.5rem;
+                transition: transform .7s ease-in-out;
+                        &:hover {
+                            transform: rotate(360deg);
                 }
+            }
             }
             .p{
                 background-color: rgba(24, 24, 24, 0.6);
