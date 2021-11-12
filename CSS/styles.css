@@ -58,6 +58,14 @@ body header .leftheader a, body header .leftheader p {
   margin-right: 1rem;
 }
 
+body header .leftheader a {
+  cursor: pointer;
+}
+
+body header .leftheader a:hover {
+  color: #fff;
+}
+
 body header .rightheader {
   display: -webkit-box;
   display: -ms-flexbox;
